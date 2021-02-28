@@ -9,6 +9,7 @@ activate :autoprefixer do |prefix|
 end
 
 activate :livereload
+activate :inline_svg
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 

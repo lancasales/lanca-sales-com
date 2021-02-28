@@ -23,10 +23,10 @@ const HomePreview = ({ entry, widgetFor }) => {
 const NavigationPreview = ({ entry }) => {
   const data = entry.get('data').toJS()
   return (
-    <header className="header-primary">
-      <div className="logo">
+    <header className="header">
+      <div className="header__logo-container">
         <a href="/">
-          <img src="/images/logo.svg" alt="Kaldi"/>
+          <img src="/images/logo-in-banner.svg" alt="Lanca Sales"/>
         </a>
       </div>
       <a className="nav-button">
