@@ -6,8 +6,11 @@
 @import 'settings/colors';
 @import 'settings/themes';
 @import 'settings/fonts';
-@import 'settings/typography';
+@import 'settings/spacing';
 
+@import 'elements/typography';
+@import 'elements/button';
 @import 'elements/logo';
 
 @import 'components/header';
+@import 'components/hero';

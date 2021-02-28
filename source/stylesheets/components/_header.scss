@@ -1,14 +1,13 @@
 .header {
-  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .15);
-  height: 8.4rem;
+  box-shadow: $drop-shadow-black;
+  height: 7rem;
   width: 100%;
   z-index: 999;
 }
 
 .header__logo-container {
-  height: 15rem;
   margin-left: 3rem;
-  width: 11rem;
+  width: 9rem;
 }
 
 .navigation__list {
@@ -17,7 +16,7 @@
 
 .navigation {
   position: absolute;
-  top: 3.3rem;
+  top: 2.8rem;
   right: 1rem;
 }
 
@@ -32,7 +31,7 @@
 
 .navigation__link {
   color: var(--text-color);
-  font-size: 18px;
+  font-size: 1rem;
   text-decoration: none;
   transition: color $transition-duration ease;
 
@@ -43,7 +42,7 @@
   }
 
   @media screen and (max-width: 1024px){
-    font-size: 14px;
+    font-size: 0.8rem;
   }
 }
 
@@ -87,8 +86,7 @@
   }
 
   .header__logo-container {
-    height: 10rem;
-    width: 8rem;
+    width: 7rem;
     margin-left: 2rem;
   }
 
@@ -99,8 +97,6 @@
 
 @media screen and (max-width: 860px) {
   .header__logo-container {
-    height: 9rem;
-    width: 7rem;
     margin-left: 1rem;
   }
 

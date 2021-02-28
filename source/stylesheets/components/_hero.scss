@@ -1,0 +1,22 @@
+.hero {
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 35rem;
+  justify-content: center;
+  padding: $spacing-double;
+  width: 100%;
+
+  @media screen and (max-width: 860px){
+    height: 25rem;
+  }
+}
+
+.hero__slogan {
+  color: var(--hero-slogan-text-color);
+  max-width: 20ch;
+  text-align: center;
+}

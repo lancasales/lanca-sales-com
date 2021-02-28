@@ -1,0 +1,15 @@
+.button {
+  background-color: var(--accent-color);
+  border-radius: $border-radius;
+  box-shadow: $drop-shadow-blue;
+  color: var(--button-text-color);
+  padding: 1.5rem 4rem;
+  text-decoration: none;
+
+  &.active,
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color-hover);
+    transition: background-color $transition-duration ease;
+  }
+}

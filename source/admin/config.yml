@@ -17,9 +17,7 @@ public_folder: /images/uploads
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Image, name: image, widget: image}
-          - label: Story
-            name: story
-            widget: markdown
+              - {label: Button Text, name: button_text, widget: string}
 
   - name: settings
     label: Settings

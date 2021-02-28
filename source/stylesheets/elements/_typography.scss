@@ -6,6 +6,10 @@ h2 {
 
 h1 {
   font-size: 4rem;
+
+  @media screen and (max-width: 860px){
+    font-size: 3rem;
+  }
 }
 
 h2 {
@@ -13,5 +17,6 @@ h2 {
 }
 
 body {
+  color: var(--text-color);
   font-family: "Avenir Next", sans-serif;
 }
