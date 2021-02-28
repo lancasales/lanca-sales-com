@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Hoefler Text";
+  src: url("/fonts/hoefler-text.ttf") format("truetype"),
+       url("/fonts/hoefler-text.otf") format("opentype"),
+       url("/fonts/hoefler-text.eot") format("embedded-opentype"),
+       url("/fonts/hoefler-text.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("/fonts/avenirnext-regular.ttf") format("truetype"),
+       url("/fonts/avenirnext-regular.eot") format("embedded-opentype"),
+       url("/fonts/avenirnext-regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("/fonts/avenirnext-bold.ttf") format("truetype"),
+       url("/fonts/avenirnext-bold.eot") format("embedded-opentype"),
+       url("/fonts/avenirnext-bold.woff") format("woff");
+  font-weight: bold;
+}
