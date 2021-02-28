@@ -1,6 +1,8 @@
 .header {
+  background-color: var(--viewport-background);
   box-shadow: $drop-shadow-black;
   height: 7rem;
+  position: absolute;
   width: 100%;
   z-index: 999;
 }
