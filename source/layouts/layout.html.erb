@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%= stylesheet_link_tag 'all' %>
+    <title><%= current_page.data.title || "Lanca Sales" %></title>
+    <%= javascript_include_tag "https://identity.netlify.com/v1/netlify-identity-widget.js" %>
+  </head>
+  <body class="default">
+    <%= partial "partials/shared/header" %>
+    <main>
+      <%= yield %>
+    </main>
+    <%= javascript_include_tag "main" %>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<header class="header">
+  <div class="logo">
+    <% link_to "/" do %>
+      <%= image_tag "logo.svg", alt: "Lanca Sales" %>
+    <% end %>
+  </div>
+
+  <a href="#" class="nav-button">
+    <%= image_tag "nav-open.svg", class: "open" %>
+    <%= image_tag "nav-close.svg", class: "close" %>
+  </a>
+
+  <nav class="navigation">
+    <ul>
+      <% data.settings.navigation.nav_items.each do | nav_item | %>
+        <li>
+          <%= nav_link nav_item.label, nav_item.path %>
+        </li>
+      <% end %>
+    </ul>
+  </nav>
+</header>
