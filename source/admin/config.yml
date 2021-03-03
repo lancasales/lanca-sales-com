@@ -19,6 +19,19 @@ collections:
               - {label: Title, name: title, widget: string}
               - {label: Image, name: image, widget: image}
               - {label: ButtonText, name: button_text, widget: string}
+      - file: "data/pages/about.yml"
+        label: About
+        name: about
+        fields:
+          - label: BackgroundImage
+            name: background_image
+            widget: image
+          - label: Header
+            name: header
+            widget: string
+          - label: Story
+            name: story
+            widget: markdown
 
   - name: settings
     label: Settings
