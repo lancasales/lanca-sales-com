@@ -15,9 +15,17 @@ h1 {
 h2 {
   color: var(--header-text-color);
   font-size: 2rem;
+
+  @media screen and (max-width: 860px){
+    font-size: 1.5rem;
+  }
 }
 
 body {
   color: var(--text-color);
   font-family: "Avenir Next", sans-serif;
+}
+
+p {
+  line-height: 1.4rem;
 }

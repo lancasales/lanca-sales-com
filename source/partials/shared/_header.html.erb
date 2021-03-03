@@ -1,7 +1,7 @@
 <header class="header">
   <div class="header__logo-container">
     <% link_to "/" do %>
-      <%= inline_svg "logo-in-banner.svg", alt: "Lanca Sales", class: "logo" %>
+      <%= inline_svg "logo-in-banner.svg", alt: "Lanca Sales", class: "logo slide-down" %>
     <% end %>
   </div>
 
@@ -13,7 +13,7 @@
   <nav class="navigation">
     <ul class="navigation__list">
       <% data.settings.navigation.nav_items.each do | nav_item | %>
-        <li class="navigation__list-item">
+        <li class="navigation__list-item fade-in-right">
           <%= nav_link nav_item.label, nav_item.path, class: "navigation__link" %>
         </li>
       <% end %>
