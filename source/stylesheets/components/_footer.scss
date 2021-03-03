@@ -8,6 +8,10 @@ footer {
     color: var(--text-color-inverse);
     text-decoration: none;
   }
+
+  @media screen and (max-width: 860px) {
+    flex-direction: column-reverse;
+  }
 }
 
 .footer__links-list {
@@ -16,6 +20,11 @@ footer {
 
 .footer__links {
   display: flex;
+
+  @media screen and (max-width: 860px) {
+    flex-wrap: wrap;
+    margin-top: $spacing-double;
+  }
 }
 
 .footer__links-header {
