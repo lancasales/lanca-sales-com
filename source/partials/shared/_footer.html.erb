@@ -1,0 +1,60 @@
+<footer>
+  <div>
+    <section class="footer__links">
+      <div class="footer__links-list">
+        <h3 class="footer__links-header">The Company</h3>
+        <ul class="footer__list">
+          <% data.settings.navigation.nav_items[0...1].each do | nav_item | %>
+            <li class="footer__list-item">
+              <%= nav_link nav_item.label, nav_item.path, class: "footer__link" %>
+            </li>
+          <% end %>
+          <% data.settings.navigation.nav_items[4...5].each do | nav_item | %>
+            <li class="footer__list-item">
+              <%= nav_link nav_item.label, nav_item.path, class: "footer__link" %>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+      <div class="footer__links-list">
+        <h3 class="footer__links-header">The Environment</h3>
+        <ul class="footer__list">
+          <% data.settings.navigation.nav_items[1...3].each do | nav_item | %>
+            <li class="footer__list-item">
+              <%= nav_link nav_item.label, nav_item.path, class: "footer__link" %>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+      <div class="footer__links-list">
+        <h3 class="footer__links-header">Products</h3>
+        <ul class="footer__list">
+          <% data.settings.navigation.nav_items[2...4].each do | nav_item | %>
+            <li class="footer__list-item">
+              <%= nav_link nav_item.label, nav_item.path, class: "footer__link" %>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+    </section>
+    <p class="footer__copyright">
+      © Copyright Lanca Sales, Inc. 2021. Designed and built by
+      <%= link_to "Vendela Larsson", "https://www.vendelalarsson.com" %>
+    </p>
+  </div>
+
+  <section class="footer__contact-info-container">
+    <div class="footer__contact-info">
+      <p class="footer__address">
+        <%= data.settings.contact.address %>
+      </p>
+      <p>
+        <%= link_to data.settings.contact.phone, data.settings.contact.phone %>
+      </p>
+      <p>
+        <%= mail_to data.settings.contact.email, data.settings.contact.email %>
+      </p>
+    </div>
+    <%= inline_svg "logo-in-banner.svg", alt: "Lanca Sales", class: "logo footer__logo" %>
+  </section>
+</footer>
