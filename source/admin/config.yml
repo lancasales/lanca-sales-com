@@ -32,6 +32,16 @@ collections:
           - label: Story
             name: story
             widget: markdown
+      - file: "data/pages/contact.yml"
+        label: Contact
+        name: contact
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Subtitle
+            name: subtitle
+            widget: string
 
   - name: settings
     label: Settings

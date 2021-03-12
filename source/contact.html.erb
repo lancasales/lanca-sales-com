@@ -1,0 +1,38 @@
+---
+title: Contact | Lanca Sales
+---
+
+<section class="page contact">
+  <h2>
+    <%= data.pages.contact.title %>
+  </h2>
+  <p>
+    <%= data.pages.contact.subtitle %>
+  </p>
+
+  <div class="contact-cards">
+    <%= partial "partials/contact-card",
+      locals: {
+        icon: "address",
+        contact_method: data.settings.contact.address,
+        link: "https://www.google.com/maps/place/Lanca+Sales/@40.6922822,-74.2294328,17z/data=!3m1!4b1!4m5!3m4!1s0x89c3ad364ab04f3d:0x608498b746fc2bd4!8m2!3d40.692292!4d-74.2272583"
+      } %>
+
+    <%= partial "partials/contact-card",
+      locals: {
+        icon: "phone",
+        contact_method: data.settings.contact.phone,
+        link: data.settings.contact.phone
+      } %>
+
+    <div class="contact-card">
+      <%= inline_svg(
+        "email.svg",
+        class: "contact-card__icon"
+      )%>
+      <p><%= data.settings.contact.email %></p>
+    </div>
+  </div>
+
+  <div id="map"></div>
+</section>

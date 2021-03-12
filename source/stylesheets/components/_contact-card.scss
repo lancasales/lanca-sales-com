@@ -1,0 +1,30 @@
+.contact-cards {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  margin: $spacing-triple 0;
+}
+
+.contact-card {
+  align-items: center;
+  box-shadow: $drop-shadow-black;
+  color: var(--text-color);
+  display: flex;
+  flex: 1;
+  padding: $spacing-base;
+  text-align: left;
+  text-decoration: none;
+  transition: color $transition-duration ease;
+
+  &:nth-child(even) {
+    margin: 0 $spacing-half;
+  }
+
+  &:hover {
+    color: var(--accent-color);
+  }
+}
+
+.contact-card__icon {
+  padding: $spacing-base;
+}

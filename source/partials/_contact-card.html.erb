@@ -1,0 +1,7 @@
+<% link_to link, class: "contact-card" do %>
+  <%= inline_svg(
+    "#{icon}.svg",
+    class: "contact-card__icon"
+  )%>
+  <p><%= contact_method %></p>
+<% end %>
