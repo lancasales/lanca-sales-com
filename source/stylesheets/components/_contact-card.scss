@@ -2,7 +2,15 @@
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-  margin: $spacing-triple 0;
+  margin: $spacing-triple auto;
+
+  @media screen and (min-width: 1024px){
+    max-width: 65em;
+  }
+
+  @media screen and (max-width: 1023px){
+    flex-direction: column;
+  }
 }
 
 .contact-card {
@@ -11,17 +19,21 @@
   color: var(--text-color);
   display: flex;
   flex: 1;
+  margin: $spacing-half 0;
+  min-width: 15rem;
   padding: $spacing-base;
   text-align: left;
   text-decoration: none;
   transition: color $transition-duration ease;
 
-  &:nth-child(even) {
-    margin: 0 $spacing-half;
-  }
-
   &:hover {
     color: var(--accent-color);
+  }
+
+  @media screen and (min-width: 1024px) {
+    &:nth-child(even) {
+      margin: $spacing-half $spacing-base;
+    }
   }
 }
 
