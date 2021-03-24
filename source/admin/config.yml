@@ -42,6 +42,26 @@ collections:
           - label: Subtitle
             name: subtitle
             widget: string
+      - file: "data/pages/green.yml"
+        label: Green
+        name: greenInnovations
+        fields:
+          - label: Hero
+            name: hero
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Image, name: image, widget: image}
+          - label: Subtitle
+            name: subtitle
+            widget: string
+          - label: CTA
+            name: cta
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Image, name: image, widget: image}
+              - {label: ButtonText, name: button_text, widget: string}
 
   - name: settings
     label: Settings

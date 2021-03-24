@@ -1,0 +1,22 @@
+---
+title: Green Innovations | Lanca Sales
+---
+
+<section class="hero hero--short" style="<%= background_image(image_path(data.pages.green.hero.image)) %>">
+  <h1 class="hero__slogan">
+    <%= data.pages.green.hero.title %>
+  </h1>
+</section>
+
+<section class="page-intro">
+  <h2 class="page-subtitle">
+    <%= data.pages.green.subtitle %>
+  </h2>
+</section>
+
+<section class="hero" style="<%= background_image(image_path(data.pages.green.cta.image)) %>">
+  <h2 class="hero__slogan">
+    <%= data.pages.green.cta.title %>
+  </h2>
+  <%= link_to data.pages.green.cta.button_text, "/contact", class: "button fade-in" %>
+</section>

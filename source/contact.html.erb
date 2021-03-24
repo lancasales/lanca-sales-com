@@ -2,7 +2,7 @@
 title: Contact | Lanca Sales
 ---
 
-<section class="page contact">
+<div class="page contact">
   <h2>
     <%= data.pages.contact.title %>
   </h2>
@@ -10,7 +10,7 @@ title: Contact | Lanca Sales
     <%= data.pages.contact.subtitle %>
   </p>
 
-  <div class="contact-cards">
+  <section class="contact-cards">
     <%= partial "partials/contact-card",
       locals: {
         icon: "address",
@@ -32,7 +32,7 @@ title: Contact | Lanca Sales
       )%>
       <p><%= data.settings.contact.email %></p>
     </div>
-  </div>
+  </section>
 
   <div id="map"></div>
-</section>
+</div>
