@@ -1,6 +1,10 @@
 .page-intro {
   margin: 5rem;
   text-align: center;
+
+  @media screen and (max-width: 740px){
+    margin: 5rem 2rem;
+  }
 }
 
 .page-subtitle {

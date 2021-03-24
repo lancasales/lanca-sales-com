@@ -2,3 +2,14 @@ hero:
   image: /images/uploads/homepage-hero.jpg
   title: Making an impact for a better world
   button_text: Learn more
+featured_section:
+  title: Featured Products
+  featured_items:
+    - {image: /images/uploads/paper-bags.jpg, path: '/'}
+    - {image: /images/uploads/paper-bags.jpg, path: '/'}
+    - {image: /images/uploads/paper-bags.jpg, path: '/'}
+company_intro:
+  title: Use our experienced team as your one-stop import/export solution.
+  subtitle: We offer our customers more than a supplier—we offer them a partner.
+  image: /images/uploads/port.jpg
+  button_text: About Lanca Sales

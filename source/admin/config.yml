@@ -19,6 +19,20 @@ collections:
               - {label: Title, name: title, widget: string}
               - {label: Image, name: image, widget: image}
               - {label: ButtonText, name: button_text, widget: string}
+          - label: "Featured Section"
+            name: featured_section
+            widget: list
+            fields:
+              - {label: "Featured Image", name: featured_item_image, widget: image}
+              - {label: Path, name: path, widget: string}
+          - label: "Company Intro"
+            name: company_intro
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: Image, name: image, widget: image}
+              - {label: ButtonText, name: button_text, widget: string}
       - file: "data/pages/about.yml"
         label: About
         name: about

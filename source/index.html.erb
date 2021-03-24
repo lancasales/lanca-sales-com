@@ -8,3 +8,30 @@ title: Lanca Sales
   </h1>
   <%= link_to data.pages.home.hero.button_text, "/", class: "button fade-in" %>
 </section>
+
+<section class="page-intro">
+  <h2 class="page-subtitle">
+    <%= data.pages.home.featured_section.title %>
+  </h2>
+  <ul class="featured-images">
+    <% data.pages.home.featured_section.featured_items.each do | item | %>
+      <li class="featured-images__item" style="<%= background_image(image_path(item.image)) %>">
+        See more
+        <%= inline_svg "arrow-circle-right.svg", alt: "Lanca Sales", class: "link-icon" %>
+      </li>
+    <% end %>
+  </ul>
+</section>
+
+<section class="page-intro">
+  <h2 class="page-subtitle">
+    <%= data.pages.home.company_intro.title %>
+  </h2>
+  <p>
+    <%= data.pages.home.company_intro.subtitle %>
+  </p>
+</section>
+
+<section class="hero" style="<%= background_image(image_path(data.pages.home.company_intro.image)) %>">
+  <%= link_to data.pages.home.company_intro.button_text, "about", class: "button fade-in" %>
+</section>
