@@ -2,6 +2,14 @@ hero:
   title: We're committed to making an impact for a better world
   image: /images/uploads/dewey-grass.jpg
 subtitle: Learn about the latest in environmentally friendly single use materials
+green_materials:
+  - {name: 'PLA', description: 'Polylactic acid or polylactide (PLA) is a thermoplastic aliphatic polyester derived from renewable resources such as corn starch (in the United States), tapioca roots, chips or starch (mostly in Asia), or sugarcane (in the rest of the world). Compostable in municipal or institutional facilities, which may not be in your area. Not suitable for backyard composting. Temperature range 0 F/ -18 C to 105 F / 41 C.', image: '/images/uploads/pla.png'}
+  - {name: 'Bagasse', description: 'Bagasse is a sugarcane fiber remaining after the juice is extracted from the sugarcane. Compostable in municipal or institutional facilities. Freezer resistant and can be used for reheating in the microwave.', image: '/images/uploads/bagasse.png'}
+  - {name: 'C-PLA', description: 'Crystallized PLA material (C-PLA) is a thermoplastic aliphatic polyester derived from renewable resources, such as corn starch (in the United States), tapioca roots, chips or starch (mostly in Asia), or sugarcane (in the rest of the world). Compostable in municipal or institutional facilities, which may not be in your area. Not suitable for backyard composting. Temperature range 0 F / -18 C to 212 F / 100 C.', image: '/images/uploads/c-pla.png'}
+  - {name: 'PLA-coated paper board', description: 'Virgin paper board coated with plant based PLA material. Compostable in municipal or institutional facilities, which may not be in your area. Not suitable for backyard composting. Temperature range 0 F / -18 C to 185 F / 85 C.', image: '/images/uploads/pla-coated-paper-board.png'}
+  - {name: 'PSM', description: 'Manufactured from plants and modified with starch. A minimum of 70-80 % of material made from plants being used. Reduces use of plastic material. Temperature 0 F / -18 C to 200F / 93 C.', image: '/images/uploads/psm.png'}
+  - {name: 'R-PET', description: 'Recycled Polyethylene Terephtalate comes from plastic that has already been used for packaging, such as the plastic bottles, this plastic is sorted, cleaned and transformed so that it can be reused as a food product, as approved by federal authorities. Some R-Pet use multilayer extrusion technology to make 3 layer material. Virgin R-PET on the inside and outside, R-PET in the middle. The percentage of R-PET can vary. However, there is also 100% R-PET products available today.', image: '/images/uploads/r-pet.png'}
+  - {name: 'TFPP', description: 'Talc-Filled Polypropylene. 40% average talc blended material with polypropylene reduces plastic usage. Temperature range 0 F / -18 C to 250 F / 121 C.', image: '/images/uploads/tfpp.png'}
 cta:
   title: Want to learn more?
   image: /images/uploads/snowy-mountain-lake.jpg

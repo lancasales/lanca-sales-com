@@ -14,6 +14,16 @@ title: Green Innovations | Lanca Sales
   </h2>
 </section>
 
+<ul class="green-materials">
+  <% data.pages.green.green_materials.each do | material | %>
+    <li class="green-material">
+      <%= image_tag material.image, class: "green-material__image" %>
+      <h2 class="green-material__name"><%= material.name %></h2>
+      <p class="green-material__description"><%= material.description %></p>
+    </li>
+  <% end %>
+</ul>
+
 <section class="hero" style="<%= background_image(image_path(data.pages.green.cta.image)) %>">
   <h2 class="hero__slogan">
     <%= data.pages.green.cta.title %>

@@ -1,0 +1,32 @@
+.green-materials {
+  margin: 0 auto 6rem;
+  max-width: 50rem;
+}
+
+.green-material {
+  display: grid;
+  grid-template-areas:
+    "image name"
+    "image description";
+  margin-bottom: $spacing-triple;
+}
+
+.green-material__image {
+  grid-area: image;
+  width: 13rem;
+}
+
+.green-material__name {
+  grid-area: name;
+  border-bottom: 1px solid $sky-blue;
+}
+
+.green-material__description {
+  grid-area: description;
+  width: 60ch;
+}
+
+.green-material__name,
+.green-material__description {
+  padding-left: 4rem;
+}
