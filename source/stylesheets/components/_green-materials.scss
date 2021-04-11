@@ -1,6 +1,10 @@
 .green-materials {
   margin: 0 auto 6rem;
   max-width: 50rem;
+
+  @media screen and (max-width: 860px) {
+    padding-inline-start: 2rem;
+  }
 }
 
 .green-material {
@@ -9,6 +13,13 @@
     "image name"
     "image description";
   margin-bottom: $spacing-triple;
+
+  @media screen and (max-width: 860px) {
+    grid-template-areas:
+      "image"
+      "name"
+      "description";
+  }
 }
 
 .green-material__image {
@@ -17,16 +28,38 @@
 }
 
 .green-material__name {
+  border-bottom: 1px solid $slate;
   grid-area: name;
-  border-bottom: 1px solid $sky-blue;
+  padding-bottom: $spacing-half;
+  position: relative;
+
+  &::before {
+    content: "";
+    border-radius: 50%;
+    border: 1px solid $slate;
+    bottom: -5px;
+    height: 7px;
+    left: -8px;
+    position: absolute;
+    width: 7px;
+  }
 }
 
 .green-material__description {
   grid-area: description;
   width: 60ch;
+
+  @media screen and (max-width: 860px) {
+    width: auto;
+    padding-right: 1.5rem;
+  }
 }
 
 .green-material__name,
 .green-material__description {
   padding-left: 4rem;
+
+  @media screen and (max-width: 860px) {
+    padding-left: 1rem;
+  }
 }
