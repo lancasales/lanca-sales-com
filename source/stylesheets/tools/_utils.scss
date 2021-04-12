@@ -1,0 +1,31 @@
+$_directions: "top" "bottom" "left" "right";
+$_sizes: (
+  "none": 0,
+  "auto": auto,
+  "spacing-base": $spacing-base,
+  "spacing-half": $spacing-half,
+  "spacing-double": $spacing-double,
+  "spacing-triple": $spacing-triple
+);
+
+@each $name, $size in $_sizes {
+  .u-margin-#{$name} {
+    margin: $size;
+  }
+
+  .u-marginX-#{$name} {
+    margin-left: $size;
+    margin-right: $size;
+  }
+
+  .u-marginY-#{$name} {
+    margin-bottom: $size;
+    margin-top: $size;
+  }
+
+  @each $dir in $_directions {
+    .u-margin-#{$dir}-#{$name} {
+      margin-#{$dir}: $size;
+    }
+  }
+}

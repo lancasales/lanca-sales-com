@@ -83,6 +83,24 @@ collections:
               - {label: Title, name: title, widget: string}
               - {label: Image, name: image, widget: image}
               - {label: ButtonText, name: button_text, widget: string}
+      - file: "data/pages/products.yml"
+        label: Products
+        name: products
+        fields:
+          - label: Hero
+            name: hero
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Intro, name: intro, widget: string}
+              - {label: ButtonText, name: button_text, widget: string}
+          - label: "Product Catalogs"
+            name: product_catalogs
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Description, name: description: widget: text}
+              - {label: Path, name: path, widget: string}
 
   - name: settings
     label: Settings

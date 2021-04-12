@@ -1,0 +1,34 @@
+---
+title: Green Innovations | Lanca Sales
+---
+
+<div class="page products">
+  <h2>
+    <%= data.pages.products.hero.title %>
+  </h2>
+  <p>
+    <%= data.pages.products.hero.intro %>
+  </p>
+  <%= link_to data.pages.products.hero.button_text, "contact", class: "button fade-in page-header-button" %>
+
+  <ul class="product-catalogs">
+    <% data.pages.products.product_catalogs.each do | catalog | %>
+      <li class="product-catalog">
+        <% link_to(
+          catalog.path,
+          class: "fade-in product-catalog__link"
+        ) do %>
+          <div class="product-catalog__view-pdf">
+            <%= inline_svg(
+              "view.svg",
+              class: "product-catalog__icon"
+            )%>
+          </div>
+          <%= image_tag catalog.image, class: "product-catalog__image" %>
+          <p class="product-catalog__title"><%= catalog.title %></p>
+        <% end %>
+      </li>
+    <% end %>
+  </ul>
+
+</div>
