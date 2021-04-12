@@ -1,0 +1,22 @@
+---
+title: News & Inspiration | Lanca Sales
+---
+
+<div class="page inspiration">
+  <h2>
+    <%= data.pages.inspiration.hero.title %>
+  </h2>
+  <p class="u-margin-bottom-spacing-triple">
+    <%= data.pages.inspiration.hero.intro %>
+  </p>
+
+  <ul class="inspiration-list">
+    <% data.pages.inspiration.inspiration_list.each do | inspiration | %>
+      <li class="inspiration-list__item">
+        <%= image_tag inspiration.image, class: "inspiration-list__image" %>
+        <%= link_to "Source", inspiration.source_link %>
+      </li>
+    <% end %>
+  </ul>
+
+</div>

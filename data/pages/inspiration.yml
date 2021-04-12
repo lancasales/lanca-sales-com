@@ -1,0 +1,10 @@
+hero:
+  title: News & Inspiration
+  intro: We’re always looking at the latest and greatest to see where the industry is headed.
+inspiration_list:
+  - {image: '/images/uploads/wc-compostable-cutlery.png', source_link: 'https://brandfolder.com/s/mh25sxp8p5btck86cggn7sbk'}
+  - {image: '/images/uploads/wc-tacos.png', source_link: 'https://brandfolder.com/s/mh25sxp8p5btck86cggn7sbk'}
+  - {image: '/images/uploads/wc_1.png', source_link: 'https://brandfolder.com/s/mh25sxp8p5btck86cggn7sbk'}
+  - {image: '/images/uploads/wc_2.png', source_link: 'https://brandfolder.com/s/mh25sxp8p5btck86cggn7sbk'}
+  - {image: '/images/uploads/wc_3.jpg', source_link: 'https://brandfolder.com/s/mh25sxp8p5btck86cggn7sbk'}
+  - {image: '/images/uploads/wc_4.png', source_link: 'https://brandfolder.com/s/mh25sxp8p5btck86cggn7sbk'}
