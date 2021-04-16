@@ -74,7 +74,7 @@ collections:
             widget: list
             fields:
               - {label: Name, name: name, widget: string}
-              - {label: Description, name: description: widget: text}
+              - {label: Description, name: description, widget: text}
               - {label: Image, name: image, widget: image}
           - label: CTA
             name: cta
@@ -99,7 +99,7 @@ collections:
             widget: list
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Image, name: image: widget: image}
+              - {label: Image, name: image, widget: image}
               - {label: Path, name: path, widget: string}
       - file: "data/pages/inspiration.yml"
         label: "News & Inspiration"
@@ -115,7 +115,7 @@ collections:
             name: inspiration_list
             widget: list
             fields:
-              - {label: Image, name: image: widget: image}
+              - {label: Image, name: image, widget: image}
               - {label: Source, name: source_link, widget: string}
 
   - name: settings
