@@ -19,6 +19,9 @@ collections:
               - {label: Title, name: title, widget: string}
               - {label: Image, name: image, widget: image}
               - {label: ButtonText, name: button_text, widget: string}
+          - label: "Featured section title"
+            name: featured_section_title
+            widget: string
           - label: "Featured Section"
             name: featured_section
             widget: list
