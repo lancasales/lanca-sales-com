@@ -16,8 +16,8 @@ collections:
             name: hero
             widget: object
             fields:
-              - {label: Title, name: title, widget: string}
               - {label: Image, name: image, widget: image}
+              - {label: Title, name: title, widget: string}
               - {label: ButtonText, name: button_text, widget: string}
           - label: "Featured section title"
             name: featured_section_title
