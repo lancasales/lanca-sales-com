@@ -9,7 +9,7 @@ collections:
     label: Pages
     files:
       - file: "data/pages/home.yml"
-        label: Homepage
+        label: Home
         name: home
         fields:
           - label: Hero
@@ -23,11 +23,11 @@ collections:
             name: featured_section_title
             widget: string
           - label: "Featured Section"
-            name: featured_section
+            name: featured_items
             widget: list
             fields:
-              - {label: "Featured Image", name: featured_item_image, widget: image}
-              - {label: Path, name: path, widget: string}
+              - {label: "Featured Item Image", name: featured_item_image, widget: image}
+              - {label: "Where it links to", name: path, widget: string}
           - label: "Company Intro"
             name: company_intro
             widget: object
@@ -109,7 +109,7 @@ collections:
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Image, name: image, widget: image}
-              - {label: Path, name: path, widget: string}
+              - {label: "Exact name of pdf file", name: file_name, widget: string}
       - file: "data/pages/inspiration.yml"
         label: "News & Inspiration"
         name: inspiration

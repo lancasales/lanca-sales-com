@@ -3,12 +3,12 @@ hero:
   intro: A selection of our product offerings and catalogs. Please let us know if you can’t find what you’re looking for.
   button_text: Contact us
 product_catalogs:
-  - {title: 'Bagcraft Product Catalog', image: '/images/uploads/bagcraft_1.png', path: '/images/uploads/Bagcraft_Product_Catalog.pdf'}
-  - {title: 'Bagcraft Product Catalog', image: '/images/uploads/bagcraft_1.png', path: '/images/uploads/Bagcraft_Product_Catalog.pdf'}
-  - {title: 'Bagcraft Product Catalog', image: '/images/uploads/bagcraft_1.png', path: '/images/uploads/Bagcraft_Product_Catalog.pdf'}
-  - {title: 'Bagcraft Product Catalog', image: '/images/uploads/bagcraft_1.png', path: '/images/uploads/Bagcraft_Product_Catalog.pdf'}
-  - {title: 'Bagcraft Product Catalog', image: '/images/uploads/bagcraft_1.png', path: '/images/uploads/Bagcraft_Product_Catalog.pdf'}
-  - {title: 'Bagcraft Product Catalog', image: '/images/uploads/bagcraft_1.png', path: '/images/uploads/Bagcraft_Product_Catalog.pdf'}
-  - {title: 'Bagcraft Product Catalog', image: '/images/uploads/bagcraft_1.png', path: '/images/uploads/Bagcraft_Product_Catalog.pdf'}
-  - {title: 'Bagcraft Product Catalog', image: '/images/uploads/bagcraft_1.png', path: '/images/uploads/Bagcraft_Product_Catalog.pdf'}
-  - {title: 'Bagcraft Product Catalog', image: '/images/uploads/bagcraft_1.png', path: '/images/uploads/Bagcraft_Product_Catalog.pdf'}
+  - {title: 'Bagcraft Product Catalog', image: '/images/uploads/bagcraft_1.png', file_name: 'Bagcraft_Product_Catalog.pdf'}
+  - {title: 'Bagcraft Product Catalog', image: '/images/uploads/bagcraft_1.png', file_name: 'Bagcraft_Product_Catalog.pdf'}
+  - {title: 'Bagcraft Product Catalog', image: '/images/uploads/bagcraft_1.png', file_name: 'Bagcraft_Product_Catalog.pdf'}
+  - {title: 'Bagcraft Product Catalog', image: '/images/uploads/bagcraft_1.png', file_name: 'Bagcraft_Product_Catalog.pdf'}
+  - {title: 'Bagcraft Product Catalog', image: '/images/uploads/bagcraft_1.png', file_name: 'Bagcraft_Product_Catalog.pdf'}
+  - {title: 'Bagcraft Product Catalog', image: '/images/uploads/bagcraft_1.png', file_name: 'Bagcraft_Product_Catalog.pdf'}
+  - {title: 'Bagcraft Product Catalog', image: '/images/uploads/bagcraft_1.png', file_name: 'Bagcraft_Product_Catalog.pdf'}
+  - {title: 'Bagcraft Product Catalog', image: '/images/uploads/bagcraft_1.png', file_name: 'Bagcraft_Product_Catalog.pdf'}
+  - {title: 'Bagcraft Product Catalog', image: '/images/uploads/bagcraft_1.png', file_name: 'Bagcraft_Product_Catalog.pdf'}

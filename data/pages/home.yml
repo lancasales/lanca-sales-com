@@ -3,11 +3,10 @@ hero:
   title: Making a difference for a better future
   button_text: Learn more
 featured_section_title: Featured Products
-featured_section:
-  featured_items:
-    - {featured_item_image: /images/uploads/paper-bags.jpg, path: '/'}
-    - {featured_item_image: /images/uploads/paper-bags.jpg, path: '/'}
-    - {featured_item_image: /images/uploads/paper-bags.jpg, path: '/'}
+featured_items:
+    - {featured_item_image: '/images/uploads/paper-bags.jpg', path: '/products'}
+    - {featured_item_image: '/images/uploads/paper-bags.jpg', path: '/green-innovations'}
+    - {featured_item_image: '/images/uploads/paper-bags.jpg', path: '/green-innovations'}
 company_intro:
   title: Use our experienced team as your one-stop import/export solution.
   subtitle: We offer our customers more than a supplier—we offer them a partner.

@@ -15,7 +15,7 @@ title: Products & Catalogs | Lanca Sales
     <% data.pages.products.product_catalogs.each do | catalog | %>
       <li class="product-catalog">
         <% link_to(
-          catalog.path,
+          "images/uploads/#{catalog.file_name}",
           class: "fade-in product-catalog__link"
         ) do %>
           <div class="product-catalog__view-pdf">
