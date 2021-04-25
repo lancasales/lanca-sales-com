@@ -15,7 +15,7 @@ title: Lanca Sales
   </h2>
   <ul class="featured-images">
     <% data.pages.home.featured_section.featured_items.each do | item | %>
-      <li class="featured-images__item" style="<%= background_image(image_path(item.image)) %>">
+      <li class="featured-images__item" style="<%= background_image(image_path(item.featured_item_image)) %>">
         See more
         <%= inline_svg "arrow-circle-right.svg", alt: "Lanca Sales", class: "link-icon" %>
       </li>
