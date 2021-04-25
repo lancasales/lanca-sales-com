@@ -3,10 +3,24 @@ title: About | Lanca Sales
 ---
 
 <div class="page about" style="<%= background_image(image_path(data.pages.about.background_image)) %>">
-  <h2>
-    <%= data.pages.about.header %>
-  </h2>
-  <p>
-    <%= data.pages.about.story %>
-  </p>
+  <div class="about__content">
+    <article class="about__main-text">
+      <h2>
+        <%= data.pages.about.header %>
+      </h2>
+      <p>
+        <%= data.pages.about.story %>
+      </p>
+    </article>
+    <ul class="offerings">
+      <% data.pages.about.offerings_list.each do | offering | %>
+        <li class="offering">
+          <div class="offering__icon-container">
+            <%= inline_svg offering.icon, alt: "Icon", class: "offering__icon" %>
+          </div>
+          <p class="offering__text"><%= offering.text %></p>
+        </li>
+      <% end %>
+    </ul>
+  </div>
 </div>

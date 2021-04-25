@@ -49,6 +49,12 @@ collections:
           - label: Story
             name: story
             widget: markdown
+          - label: "Offerings List"
+            name: offerings_list
+            widget: list
+            fields:
+              - {label: Icon, name: icon, widget: image}
+              - {label: Text, name: text, widget: string}
       - file: "data/pages/contact.yml"
         label: Contact
         name: contact

@@ -1,0 +1,18 @@
+.about {
+  background-size: cover;
+  background-position: left;
+}
+
+.about__content {
+  display: flex;
+  margin: 0 auto;
+  max-width: 70rem;
+
+  @media screen and (max-width: 860px) {
+    display: block;
+  }
+}
+
+.about__main-text {
+  max-width: 50rem;
+}
