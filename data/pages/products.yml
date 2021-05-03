@@ -7,30 +7,9 @@ product_catalogs:
   - title: Bagcraft Product Catalog
     image: /images/uploads/bagcraft_1.png
     file_name: Bagcraft_Product_Catalog.pdf
-  - title: Bagcraft Product Catalog
-    image: /images/uploads/bagcraft_1.png
-    file_name: Bagcraft_Product_Catalog.pdf
-  - title: Bagcraft Product Catalog
-    image: /images/uploads/bagcraft_1.png
-    file_name: Bagcraft_Product_Catalog.pdf
-  - title: Bagcraft Product Catalog
-    image: /images/uploads/bagcraft_1.png
-    file_name: Bagcraft_Product_Catalog.pdf
-  - title: Bagcraft Product Catalog
-    image: /images/uploads/bagcraft_1.png
-    file_name: Bagcraft_Product_Catalog.pdf
-  - title: Bagcraft Product Catalog
-    image: /images/uploads/bagcraft_1.png
-    file_name: Bagcraft_Product_Catalog.pdf
-  - title: Bagcraft Product Catalog
-    image: /images/uploads/bagcraft_1.png
-    file_name: Bagcraft_Product_Catalog.pdf
-  - title: Bagcraft Product Catalog
-    image: /images/uploads/bagcraft_1.png
-    file_name: Bagcraft_Product_Catalog.pdf
-  - title: Bagcraft Product Catalog
-    image: /images/uploads/bagcraft_1.png
-    file_name: Bagcraft_Product_Catalog.pdf
   - title: Pactiv Pressware Paper Plates
     image: /images/uploads/pressware-plates12.png
     file_name: new-pressware-paper-tableware-12-18-19.pdf
+  - file_name: catalogue_lit-prodcat-2020.pdf
+    image: /images/uploads/pages-from-catalogue_lit-prodcat-2020.png
+    title: Inline Plastics
