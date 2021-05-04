@@ -13,6 +13,6 @@ product_catalogs:
   - file_name: catalogue_lit-prodcat-2020.pdf
     image: /images/uploads/pages-from-catalogue_lit-prodcat-2020.png
     title: Inline Plastics
-  - file_name: pages-from-full-product-catalog.png
+  - file_name: full-product-catalog.pdf
     title: Graphic Packaging
     image: /images/uploads/pages-from-full-product-catalog.png
