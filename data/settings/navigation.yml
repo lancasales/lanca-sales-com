@@ -1,6 +1,13 @@
 nav_items:
-    - {label: 'About Us', path: '/about'}
-    - {label: 'Green Innovations', path: '/green-innovations'}
-    - {label: 'Products & Catalogs', path: '/products'}
-    - {label: 'News & Inspiration', path: '/inspiration'}
-    - {label: 'Contact Us', path: '/contact'}
+  - label: Home
+    path: /
+  - label: About Us
+    path: /about
+  - label: Green Innovations
+    path: /green-innovations
+  - label: Products & Catalogs
+    path: /products
+  - label: News & Inspiration
+    path: /inspiration
+  - label: Contact Us
+    path: /contact
