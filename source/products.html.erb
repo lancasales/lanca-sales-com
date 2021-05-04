@@ -16,7 +16,8 @@ title: Products & Catalogs | Lanca Sales
       <li class="product-catalog">
         <% link_to(
           "images/uploads/#{catalog.file_name}",
-          class: "fade-in product-catalog__link"
+          class: "fade-in product-catalog__link",
+          target: "_blank"
         ) do %>
           <div class="product-catalog__view-pdf">
             <%= inline_svg(
