@@ -1,7 +1,7 @@
 hero:
   title: Our Partners
-  intro: A selection of our product offerings and catalogs. Please let us know if
-    you can’t find what you’re looking for.
+  intro: A selection of our partners that we work with. Click the logo and it will
+    take you to their products and catalogues.
   button_text: Contact us
 product_catalogs:
   - title: Bagcraft Product Catalog
