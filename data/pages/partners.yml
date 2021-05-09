@@ -1,0 +1,20 @@
+hero:
+  title: Our Partners
+  intro: We choose our partners wisely so you can be sure you're getting the best selection of products.
+  button_text: Contact us
+partners:
+  - name: Bagcraft
+    logo: /images/uploads/bagcraft-logo.png
+    url: https://www.bagcraft.com/product-brochures/
+  - name: Pactiv Evergreen
+    logo: /images/uploads/pactivevergreen-logo.png
+    url: https://www.pactiv.com/Pactiv/Products.htm
+  - url: https://www.inlineplastics.com/products/
+    logo: /images/uploads/inline-plastics-logo.svg
+    name: Inline Plastics
+  - url: https://www.graphicpkg.com/products-page/
+    name: Graphic Packaging
+    logo: /images/uploads/graphic-pkg-logo.png
+  - url: https://www.fabri-kal.com/products
+    name: Frabikal
+    logo: /images/uploads/fabrikal-logo.jpg

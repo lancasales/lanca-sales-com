@@ -1,0 +1,29 @@
+---
+title: Our Partners | Lanca Sales
+---
+
+<div class="page products">
+  <h2>
+    <%= data.pages.partners.hero.title %>
+  </h2>
+  <p>
+    <%= data.pages.partners.hero.intro %>
+  </p>
+  <%= link_to data.pages.partners.hero.button_text, "contact", class: "button fade-in page-header-button" %>
+
+  <ul class="partners">
+    <% data.pages.partners.partners.each do | partner | %>
+      <li class="partner">
+        <% link_to(
+          partner.url,
+          class: "fade-in partner__link",
+          target: "_blank"
+        ) do %>
+          <%= image_tag partner.logo, class: "partner__logo" %>
+          <p class="partner__name">View products</p>
+        <% end %>
+      </li>
+    <% end %>
+  </ul>
+
+</div>

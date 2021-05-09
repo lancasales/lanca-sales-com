@@ -16,9 +16,9 @@ collections:
             name: hero
             widget: object
             fields:
-              - {label: Image, name: image, widget: image}
-              - {label: Title, name: title, widget: string}
-              - {label: ButtonText, name: button_text, widget: string}
+              - { label: Image, name: image, widget: image }
+              - { label: Title, name: title, widget: string }
+              - { label: ButtonText, name: button_text, widget: string }
           - label: "Featured section title"
             name: featured_section_title
             widget: string
@@ -26,16 +26,20 @@ collections:
             name: featured_items
             widget: list
             fields:
-              - {label: "Featured Item Image", name: featured_item_image, widget: image}
-              - {label: "Where it links to", name: path, widget: string}
+              - {
+                  label: "Featured Item Image",
+                  name: featured_item_image,
+                  widget: image,
+                }
+              - { label: "Where it links to", name: path, widget: string }
           - label: "Company Intro"
             name: company_intro
             widget: object
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Subtitle, name: subtitle, widget: string}
-              - {label: Image, name: image, widget: image}
-              - {label: ButtonText, name: button_text, widget: string}
+              - { label: Title, name: title, widget: string }
+              - { label: Subtitle, name: subtitle, widget: string }
+              - { label: Image, name: image, widget: image }
+              - { label: ButtonText, name: button_text, widget: string }
       - file: "data/pages/about.yml"
         label: About
         name: about
@@ -53,8 +57,8 @@ collections:
             name: offerings_list
             widget: list
             fields:
-              - {label: Icon, name: icon, widget: image}
-              - {label: Text, name: text, widget: string}
+              - { label: Icon, name: icon, widget: image }
+              - { label: Text, name: text, widget: string }
       - file: "data/pages/contact.yml"
         label: Contact
         name: contact
@@ -73,8 +77,8 @@ collections:
             name: hero
             widget: object
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Image, name: image, widget: image}
+              - { label: Title, name: title, widget: string }
+              - { label: Image, name: image, widget: image }
           - label: Subtitle
             name: subtitle
             widget: string
@@ -82,34 +86,34 @@ collections:
             name: green_materials
             widget: list
             fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Description, name: description, widget: text}
-              - {label: Image, name: image, widget: image}
+              - { label: Name, name: name, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Image, name: image, widget: image }
           - label: CTA
             name: cta
             widget: object
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Image, name: image, widget: image}
-              - {label: ButtonText, name: button_text, widget: string}
-      - file: "data/pages/products.yml"
-        label: Products
-        name: products
+              - { label: Title, name: title, widget: string }
+              - { label: Image, name: image, widget: image }
+              - { label: ButtonText, name: button_text, widget: string }
+      - file: "data/pages/partners.yml"
+        label: Partners
+        name: partners
         fields:
           - label: Hero
             name: hero
             widget: object
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Intro, name: intro, widget: string}
-              - {label: ButtonText, name: button_text, widget: string}
-          - label: "Product Catalogs"
-            name: product_catalogs
+              - { label: Title, name: title, widget: string }
+              - { label: Intro, name: intro, widget: string }
+              - { label: ButtonText, name: button_text, widget: string }
+          - label: "Partners"
+            name: partners
             widget: list
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Image, name: image, widget: image}
-              - {label: "Exact name of pdf file", name: file_name, widget: string}
+              - { label: Name, name: name, widget: string }
+              - { label: Logo, name: logo, widget: image }
+              - { label: URL, name: url, widget: string }
       - file: "data/pages/inspiration.yml"
         label: "News & Inspiration"
         name: inspiration
@@ -118,14 +122,14 @@ collections:
             name: hero
             widget: object
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Intro, name: intro, widget: string}
+              - { label: Title, name: title, widget: string }
+              - { label: Intro, name: intro, widget: string }
           - label: "News & Inspiration"
             name: inspiration_list
             widget: list
             fields:
-              - {label: Image, name: image, widget: image}
-              - {label: Source, name: source_link, widget: string}
+              - { label: Image, name: image, widget: image }
+              - { label: Source, name: source_link, widget: string }
 
   - name: settings
     label: Settings
@@ -138,8 +142,8 @@ collections:
             name: nav_items
             widget: list
             fields:
-              - {label: Label, name: label, widget: string}
-              - {label: Path, name: path, widget: string}
+              - { label: Label, name: label, widget: string }
+              - { label: Path, name: path, widget: string }
       - file: data/settings/contact.yml
         label: Contact
         name: contact

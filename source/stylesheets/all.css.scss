@@ -1,32 +1,32 @@
 //setup
 @charset 'utf-8';
 
-@import 'settings/normalize';
-@import 'settings/variables';
-@import 'settings/colors';
-@import 'settings/themes';
-@import 'settings/fonts';
-@import 'settings/spacing';
-@import 'settings/animations';
+@import "settings/normalize";
+@import "settings/variables";
+@import "settings/colors";
+@import "settings/themes";
+@import "settings/fonts";
+@import "settings/spacing";
+@import "settings/animations";
 
-@import 'elements/typography';
-@import 'elements/button';
-@import 'elements/logo';
-@import 'elements/main';
+@import "elements/typography";
+@import "elements/button";
+@import "elements/logo";
+@import "elements/main";
 
-@import 'tools/utils';
+@import "tools/utils";
 
-@import 'components/header';
-@import 'components/hero';
-@import 'components/footer';
-@import 'components/page';
-@import 'components/contact-card';
-@import 'components/page-intro';
-@import 'components/featured-images';
-@import 'components/link-icon';
-@import 'components/green-materials';
-@import 'components/page-header';
-@import 'components/product-catalogs';
-@import 'components/inspiration-list';
-@import 'components/about';
-@import 'components/offering';
+@import "components/header";
+@import "components/hero";
+@import "components/footer";
+@import "components/page";
+@import "components/contact-card";
+@import "components/page-intro";
+@import "components/featured-images";
+@import "components/link-icon";
+@import "components/green-materials";
+@import "components/page-header";
+@import "components/partners";
+@import "components/inspiration-list";
+@import "components/about";
+@import "components/offering";

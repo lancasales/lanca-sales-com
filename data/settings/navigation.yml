@@ -5,8 +5,8 @@ nav_items:
     path: /about
   - label: Green Innovations
     path: /green-innovations
-  - label: Products & Catalogs
-    path: /products
+  - label: Our Partners
+    path: /partners
   - label: News & Inspiration
     path: /inspiration
   - label: Contact Us

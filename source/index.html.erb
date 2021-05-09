@@ -16,7 +16,7 @@ title: Lanca Sales
   <ul class="featured-images">
     <% data.pages.home.featured_items.each do | item | %>
       <li class="featured-images__item" style="<%= background_image(image_path(item.featured_item_image)) %>">
-        <% link_to item.path, class: "featured-images__link" do %>
+        <% link_to item.path, class: "featured-images__link", target: "_blank" do %>
           See more
           <%= inline_svg "arrow-circle-right.svg", alt: "Lanca Sales", class: "link-icon" %>
         <% end %>
