@@ -1,6 +1,7 @@
 hero:
   title: Our Partners
-  intro: We choose our partners wisely so you can be sure you're getting the best selection of products.
+  intro: We choose our partners wisely so you can be sure you're getting the best
+    selection of products.
   button_text: Contact us
 partners:
   - name: Bagcraft
@@ -18,3 +19,6 @@ partners:
   - url: https://www.fabri-kal.com/products
     name: Frabikal
     logo: /images/uploads/fabrikal-logo.jpg
+  - name: Amhil
+    logo: /images/uploads/amhil-logo-2018-no-tag-line.png
+    url: https://www.amhil.com
