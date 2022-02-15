@@ -7,18 +7,12 @@ partners:
   - name: Bagcraft
     logo: /images/uploads/bagcraft-logo.png
     url: https://www.bagcraft.com/product-brochures/
-  - name: Pactiv Evergreen
-    logo: /images/uploads/pactivevergreen-logo.png
-    url: https://www.pactiv.com/Pactiv/Products.htm
   - url: https://www.inlineplastics.com/products/
     logo: /images/uploads/inline-plastics-logo.svg
     name: Inline Plastics
   - url: https://www.graphicpkg.com/products-page/
     name: Graphic Packaging
     logo: /images/uploads/graphic-pkg-logo.png
-  - url: https://www.fabri-kal.com/products
-    name: Frabikal
-    logo: /images/uploads/fabrikal-logo.jpg
   - name: Amhil
     logo: /images/uploads/amhil-logo-2018-no-tag-line.png
     url: http://www.amhil.com
