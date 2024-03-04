@@ -11,7 +11,7 @@ green_materials:
       institutional facilities, which may not be in your area. Not suitable for
       backyard composting. Temperature range 0 F/ -18 C to 105 F / 41 C.
     image: /images/uploads/pla.png
-  - name: Bagasse
+  - name: Bagasse, Non PFAS
     description: Bagasse is a sugarcane fiber remaining after the juice is extracted
       from the sugarcane. Compostable in municipal or institutional facilities.
       Freezer resistant and can be used for reheating in the microwave.
@@ -39,11 +39,11 @@ green_materials:
       and outside, R-PET in the middle. The percentage of R-PET can vary.
       However, there is also 100% R-PET products available today.
     image: /images/uploads/r-pet.png
-  - name: TFPP
-    description: Talc-Filled Polypropylene. 40% average talc blended material with
-      polypropylene reduces plastic usage. Temperature range 0 F / -18 C to 250
-      F / 121 C.
-    image: /images/uploads/tfpp.png
+  - name: Aqueous Coated Cups
+    description: >
+      Water based coated cups, food safe and will break down in industrial
+      compost facilities.
+    image: /images/uploads/8ozdoublewallwhitekraft.jpg
 cta:
   title: Want to learn more?
   image: /images/uploads/snowy-mountain-lake.jpg
