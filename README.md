@@ -24,12 +24,6 @@ After clicking that button, you’ll authenticate with GitHub and choose a repos
 
 ### Make it work on your machine
 
-## Using docker
-```
-$ docker-compose build
-$ docker-compose run --service-ports web middleman server
-```
-
 ## Without docker
 Be sure to check out the [middleman installation guide](https://middlemanapp.com/basics/install/)
 ```
@@ -38,6 +32,13 @@ $ cd middleman-starter-netlify-cms
 $ bundle install
 $ middleman server
 ```
+
+## Updating the locations map
+Included in the top level directory of this project is a file called `locations_world_map.com` which can only be opened and edited using Adobe Illustrator. Make the edits you want and reupload the file here on Github, making a commit and pushing, to make sure the latest edits are accessible to the next person.
+
+Save a version of the file as filetype `.svg` and replace the existing version in `source/images/uploads`. Once you've committed and pushed that change, your edits will be live on the site.
+
+Email `vendelalinnea@mac.com` with questions.
 
 ### Setting up the CMS
 Follow the [Netlify CMS Quick Start Guide](https://www.netlifycms.org/docs/quick-start/#authentication) to set up authentication, and hosting.
