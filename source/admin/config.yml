@@ -96,9 +96,9 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Image, name: image, widget: image }
               - { label: ButtonText, name: button_text, widget: string }
-      - file: "data/pages/partners.yml"
-        label: Partners
-        name: partners
+      - file: "data/pages/locations.yml"
+        label: Locations
+        name: locations
         fields:
           - label: Hero
             name: hero
@@ -107,13 +107,9 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Intro, name: intro, widget: string }
               - { label: ButtonText, name: button_text, widget: string }
-          - label: "Partners"
-            name: partners
-            widget: list
-            fields:
-              - { label: Name, name: name, widget: string }
-              - { label: Logo, name: logo, widget: image }
-              - { label: URL, name: url, widget: string }
+          - label: "Locations Map"
+            name: locations_map
+            widget: image
       - file: "data/pages/inspiration.yml"
         label: "News & Inspiration"
         name: inspiration
