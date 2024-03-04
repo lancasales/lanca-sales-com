@@ -1,18 +1,33 @@
 background_image: /images/uploads/mountain-forest.jpg
-header: Since 1978, Lanca Sales has provided our customers with a service that is unsurpassed in our field.
-story: >-
-  Lanca Sales is the leading Full Service Export Distributor for Food Service Disposables and Institutional Products from the United States. We help distributors and importers in more than 70 different countries source products from the US and other countries around the world. Our Services are unique to the export and import industry.
-  <br />
-  <br />
-  By providing the following services, we offer our customers more than a supplier - we offer them a partner.
-  <br />
-  <br />
-  We are certain that we can offer overseas customers more than just a price and product. Our aim is to provide a great service at very competitive prices - all focused on exporting US manufactured goods.
+header: For the last 1/2 century, Lanca Sales has provided our customers in the
+  USA and in over 70 different countries globally, with products and service
+  that is unsurpassed in our field.
+story: Lanca Sales is a leading Full Service International Distributor of Food
+  Service Disposables and Institutional Products.  Our products are sourced from
+  our affiliates in the USA and in 20 different countries worldwide.<br /> <br
+  /> Our services are unique to the international trading world that sets Lanca
+  Sales apart from the rest.partner. <br /> <br /> We are certain we can offer
+  USA and overseas distributors more than just a supplier. We offer them a
+  partner. Our aim is to provide a great service at a very competitive prices.
+  Our focus remains on the ever changing Food Service Disposables, packaging and
+  institutional  industry.
 offerings_list:
-  - {icon: 'icons/shopping-cart.svg', text: 'One stop shopping for all US manufactured plastic and paper disposable products.'}
-  - {icon: 'icons/presentation.svg', text: 'Access and updates of the latest trends in innovative and cost effective packaging.'}
-  - {icon: 'icons/freight-ship.svg', text: 'Freight forwarding and shipping services all handled in house by Lancas logistics staff. We feel that we have the most competitive shipping rates available by sea and air.'}
-  - {icon: 'icons/people.svg', text: 'A very experienced and well trained export team that always look for the best solutions.'}
-  - {icon: 'icons/container.svg', text: 'Container freight station within five miles of one of the largest US ports.'}
-  - {icon: 'icons/hand-flag.svg', text: 'Over 30 years of export sales and trading experience.'}
-  - {icon: 'icons/relationship.svg', text: 'Solid relationships with most US companies that manufacture to-go packaging, janitorial cleaning products, industrial paper, equipment and supermarket supplies.'}
+  - icon: icons/shopping-cart.svg
+    text: One stop shopping for all your Food Service Disposable and Packaging needs.
+  - icon: icons/presentation.svg
+    text: Access and updates of the latest trends, innovations and cost effective
+      packaging.
+  - icon: icons/freight-ship.svg
+    text: Freight forwarding and shipping services all handled in house by Lancas
+      Sales. You give us your requirements and we do the rest.
+  - icon: icons/people.svg
+    text: "A well experienced staff that are experts in sourcing and moving products
+      globally. "
+  - icon: icons/container.svg
+    text: Container Freight Station and warehouse facilities within 5 miles of one
+      of the largest ports.
+  - icon: icons/hand-flag.svg
+    text: Over 45 years of experience in our field.
+  - icon: icons/relationship.svg
+    text: Strong partnerships with leading reliable ocean shipping lines and
+      logistic networks.
