@@ -34,9 +34,9 @@ $ middleman server
 ```
 
 ## Updating the locations map
-Included in the top level directory of this project is a file called `locations_world_map.com` which can only be opened and edited using Adobe Illustrator. Make the edits you want and reupload the file here on Github, making a commit and pushing, to make sure the latest edits are accessible to the next person.
+Included in the top level directory of this project is a file called `locations_world_map.ai` which can only be opened and edited using Adobe Illustrator. Make the edits you want and reupload the file here on Github, making a commit and pushing, to make sure the latest edits are accessible to the next person.
 
-Save a version of the file as filetype `.svg` and replace the existing version in `source/images/uploads`. Once you've committed and pushed that change, your edits will be live on the site.
+Now save a version of the file as filetype `.svg` and replace the existing version in `source/images/uploads`. Once you've committed and pushed that change here on Github, your edits will be live on the site.
 
 Email `vendelalinnea@mac.com` with questions.
 

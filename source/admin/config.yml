@@ -110,9 +110,9 @@ collections:
           - label: "Locations Map"
             name: locations_map
             widget: image
-      - file: "data/pages/inspiration.yml"
-        label: "News & Inspiration"
-        name: inspiration
+      - file: "data/pages/product-ideas.yml"
+        label: "Product Ideas"
+        name: product-ideas
         fields:
           - label: Hero
             name: hero
@@ -120,8 +120,8 @@ collections:
             fields:
               - { label: Title, name: title, widget: string }
               - { label: Intro, name: intro, widget: string }
-          - label: "News & Inspiration"
-            name: inspiration_list
+          - label: "Product Ideas"
+            name: product-ideas_list
             widget: list
             fields:
               - { label: Image, name: image, widget: image }
