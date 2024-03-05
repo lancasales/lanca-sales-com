@@ -8,6 +8,6 @@ nav_items:
   - label: Locations
     path: /locations
   - label: Products Ideas
-    path: /ideas
+    path: /products-ideas
   - label: Contact Us
     path: /contact
