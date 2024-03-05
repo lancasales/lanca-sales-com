@@ -7,7 +7,7 @@ nav_items:
     path: /green-innovations
   - label: Locations
     path: /locations
-  - label: Products Ideas
-    path: /products-ideas
+  - label: Product Ideas
+    path: /product-ideas
   - label: Contact Us
     path: /contact
