@@ -1,4 +1,4 @@
-.inspiration-list {
+.product-ideas-list {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
@@ -21,11 +21,11 @@
   }
 }
 
-.inspiration-list__item {
+.product-ideas-list__item {
   display: inline-block;
   margin-bottom: $spacing-base;
 }
 
-.inspiration-list__image {
+.product-ideas-list__image {
   max-width: 100%;
 }

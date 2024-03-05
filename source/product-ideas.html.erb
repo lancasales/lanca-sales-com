@@ -1,20 +1,19 @@
 ---
-title: News & Inspiration | Lanca Sales
+title: Product Ideas | Lanca Sales
 ---
 
-<div class="page inspiration">
+<div class="page product-ideas">
   <h2>
-    <%= data.pages.inspiration.hero.title %>
+    <%= data.pages.productideas.hero.title %>
   </h2>
-  <p class="u-margin-bottom-spacing-triple">
-    <%= data.pages.inspiration.hero.intro %>
+  <p class="u-marginY-spacing-triple page-intro__text">
+    <%= data.pages.productideas.hero.intro %>
   </p>
 
-  <ul class="inspiration-list">
-    <% data.pages.inspiration.inspiration_list.each do | inspiration | %>
-      <li class="inspiration-list__item">
-        <%= image_tag inspiration.image, class: "inspiration-list__image" %>
-        <%= link_to "Source", inspiration.source_link, target: "_blank" %>
+  <ul class="product-ideas-list">
+    <% data.pages.productideas.productideas_list.each do | productideas | %>
+      <li class="product-ideas-list__item">
+        <%= image_tag productideas.image, class: "product-ideas-list__image" %>
       </li>
     <% end %>
   </ul>

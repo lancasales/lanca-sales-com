@@ -1,8 +1,9 @@
 hero:
-  title: Product and Ideas
+  title: Product Ideas
   intro: We’re always looking at the latest and greatest to see where the industry
-    is headed.
-inspiration_list:
+    is headed. 
+    Please reach out to our sales team with any questions about these products.
+productideas_list:
   - image: /images/uploads/2-4cup1.jpg
     source_link: https://www.lancasales.com
   - image: /images/uploads/8.5-.jpg
