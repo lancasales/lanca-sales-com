@@ -4,12 +4,12 @@ hero:
   button_text: Learn more
 featured_section_title: Featured Products
 featured_items:
-  - featured_item_image: /images/uploads/paper-cutlery1.jpg
-    path: https://www.lancasales.com
-  - featured_item_image: /images/uploads/12-oz-cup.jpg
-    path: https://www.lancasales.com
-  - featured_item_image: /images/uploads/2-oz-fiber-portion-cup.jpg
-    path: https://www.lancasales.com
+  - featured_item_image: /images/uploads/dorringtons.jpg
+    path: https://www.go-pakuk.com
+  - featured_item_image: /images/uploads/punto.jpg
+    path: https://www.go-pakuk.com
+  - featured_item_image: /images/uploads/damacs.jpg
+    path: https://www.go-pakuk.com
 company_intro:
   title: Use our experienced team as your one-stop import/export solution.
   subtitle: We offer our customers more than a supplier—we offer them a partner.
