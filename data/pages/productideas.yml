@@ -1,8 +1,8 @@
 hero:
   title: Product Ideas
   intro: We’re always looking at the latest and greatest to see where the industry
-    is headed. 
-    Please reach out to our sales team with any questions about these products.
+    is headed. Please reach out to our sales team with any questions about these
+    products.
 productideas_list:
   - image: /images/uploads/2-4cup1.jpg
     source_link: https://www.lancasales.com
@@ -51,4 +51,10 @@ productideas_list:
   - image: /images/uploads/sailboat.jpg
     source_link: https://www.lancasales.com
   - image: /images/uploads/lpc10inner.jpg
+    source_link: https://www.lancasales.com
+  - image: /images/uploads/12-oz-cup.jpg
+    source_link: https://www.lancasales.com
+  - image: /images/uploads/ripplegopak.jpg
+    source_link: https://www.lancasales.com
+  - image: /images/uploads/300238.jpg
     source_link: https://www.lancasales.com
