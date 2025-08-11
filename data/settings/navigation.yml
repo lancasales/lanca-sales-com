@@ -9,7 +9,7 @@ nav_items:
     path: /locations
   - label: Product Ideas
     path: /product-ideas
-  - label: Contact Us
-    path: /contact
   - label: Compliance
     path: /compliance
+  - label: Contact Us
+    path: /contact
