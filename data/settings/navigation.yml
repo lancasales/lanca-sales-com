@@ -11,3 +11,5 @@ nav_items:
     path: /product-ideas
   - label: Contact Us
     path: /contact
+- title: Compliance
+  url: /compliance/
