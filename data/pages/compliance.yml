@@ -4,17 +4,17 @@ subheader: Public policies and statements
 documents_list:
   - icon: icons/pdf-document.svg
     text: CTPAT Statement of Support
-    link: documents/ctpat-statement-of-support.pdf
+    link: /documents/ctpat-statement-of-support.pdf
   - icon: icons/pdf-document.svg
     text: Compliance & Security Overview
-    link: documents/compliance-security-overview.pdf
+    link: /documents/compliance-security-overview.pdf
   - icon: icons/pdf-document.svg
     text: Ethics & Anonymous Reporting
-    link: documents/ethics-anonymous-reporting.pdf
+    link: /documents/ethics-anonymous-reporting.pdf
   - icon: icons/pdf-document.svg
     text: Forced Labor & Human Rights Policy
-    link: documents/forced-labor-human-rights-policy.pdf
+    link: /documents/forced-labor-human-rights-policy.pdf
   - icon: icons/pdf-document.svg
     text: Supplier Code of Conduct & Business Partner Expectations
-    link: documents/supplier-code-of-conduct-business-partner-expectations.pdf
+    link: /documents/supplier-code-of-conduct-business-partner-expectations.pdf
   
