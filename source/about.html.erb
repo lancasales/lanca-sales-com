@@ -16,7 +16,7 @@ title: About | Lanca Sales
       <% data.pages.about.offerings_list.each do | offering | %>
         <li class="offering">
           <div class="offering__icon-container">
-            <%= inline_svg offering.icon, alt: "Icon", class: "offering__icon" %>
+            <%= inline_svg offering.icon, alt: "Icon" %>
           </div>
           <p class="offering__text"><%= offering.text %></p>
         </li>

@@ -1,0 +1,20 @@
+---
+title: Compliance | Lanca Sales
+---
+
+<div class="page compliance" style="<%= background_image(image_path(data.pages.compliance.background_image)) %>">
+  <div class="compliance__content">
+    <h2><%= data.pages.compliance.header %><h2>
+    <h3><%= data.pages.compliance.subheader %></h3>
+    <ul class="document-links">
+      <% data.pages.compliance.documents_list.each do | document | %>
+        <li class="document-links__list-item">
+          <a class="document-link" href="<%= document.link %>">
+              <%= inline_svg document.icon, alt: "Icon", class: "document-link__icon" %>
+              <p class="document-link__text"><%= document.text %></p>
+          </a>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
