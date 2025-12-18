@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem "bigdecimal"
 gem 'middleman'
 gem 'middleman-autoprefixer'
 gem 'middleman-blog'
