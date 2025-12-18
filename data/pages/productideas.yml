@@ -4,6 +4,10 @@ hero:
     is headed. Please reach out to our sales team with any questions about these
     products.
 productideas_list:
+  - image: /images/uploads/Livebaglarge.jpg
+    source_link: https://www.lancasales.com
+  - image: /images/uploads/Chateabags.jpg
+    source_link: https://www.lancasales.com
   - image: /images/uploads/2-4cup1.jpg
     source_link: https://www.lancasales.com
   - image: /images/uploads/8.5-.jpg
@@ -12,19 +16,11 @@ productideas_list:
     source_link: https://www.lancasales.com
   - image: /images/uploads/18-x-500ft.jpg
     source_link: https://www.lancasales.com
-  - image: /images/uploads/pages-from-wooden_cutlery_dispenser_v00903jg_1.png
-    source_link: https://www.selfservesafe.com/
   - image: /images/uploads/bamboo-enjoy-12_16oz_1.jpg
     source_link: https://www.lancasales.com
   - image: /images/uploads/bamboo-fork-pack.jpg
     source_link: https://www.lancasales.com
-  - image: /images/uploads/coctailcupsfront_2.jpg
-    source_link: https://www.lancasales.com
   - image: /images/uploads/paper-cutlery.jpg
-    source_link: https://www.lancasales.com
-  - image: /images/uploads/pizzabolis8x8-.jpg
-    source_link: https://www.lancasales.com
-  - image: /images/uploads/square1.jpg
     source_link: https://www.lancasales.com
   - image: /images/uploads/woderbag.jpg
     source_link: https://www.lancasales.com
@@ -58,9 +54,4 @@ productideas_list:
     source_link: https://www.lancasales.com
   - image: /images/uploads/300238.jpg
     source_link: https://www.lancasales.com
-  - image: /images/uploads/paper-cup.jpg
-    source_link: https://www.lancasales.com
-  - image: /images/uploads/sunup.jpg
-    source_link: https://www.lancasales.com
-  - image: /images/uploads/2compa.jpg
-    source_link: https://www.lancasales.com
+ 
