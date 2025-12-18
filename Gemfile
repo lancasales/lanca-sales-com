@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem "mutex_m", require: "mutex_m"
 gem "bigdecimal"
 gem 'middleman'
 gem 'middleman-autoprefixer'
