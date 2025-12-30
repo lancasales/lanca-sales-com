@@ -4,6 +4,24 @@ hero:
     is headed. Please reach out to our sales team with any questions about these
     products.
 productideas_list:
+  - image: /images/uploads/brusters20.jpg
+    source_link: https://www.lancasales.com
+  - image: /images/uploads/9-comp-rectangular.jpg
+    source_link: https://www.lancasales.com
+  - source_link: https://www.lancasales.com
+    image: /images/uploads/bowlandbasket.jpg
+  - image: /images/uploads/9inchpaperplate1.jpg
+    source_link: https://www.lancasales.com
+  - image: /images/uploads/bowls12.jpg
+    source_link: https://www.lancasales.com
+  - image: /images/uploads/bbqchicken1.jpg
+    source_link: https://www.lancasales.com
+  - image: /images/uploads/bbqchicken2.jpg
+    source_link: https://www.lancasales.com
+  - image: /images/uploads/titan11.jpg
+    source_link: https://www.lancasales.com
+  - image: /images/uploads/wingman.jpg
+    source_link: https://www.lancasales.com
   - image: /images/uploads/96ozcoffebox2.jpg
     source_link: https://www.lancasales.com
   - image: /images/uploads/bowls12.jpg
@@ -64,21 +82,3 @@ productideas_list:
     source_link: https://www.lancasales.com
   - image: /images/uploads/300238.jpg
     source_link: https://www.lancasales.com
-  - image: /images/uploads/brusters20.jpg
-    source_link: https://www.lancasales.com
-  - image: /images/uploads/9-comp-rectangular.jpg
-    source_link: https://www.lancasales.com
-  - image: /images/uploads/9inchpaperplate1.jpg
-    source_link: https://www.lancasales.com
-  - image: /images/uploads/bowls12.jpg
-    source_link: https://www.lancasales.com
-  - image: /images/uploads/bbqchicken1.jpg
-    source_link: https://www.lancasales.com
-  - image: /images/uploads/bbqchicken2.jpg
-    source_link: https://www.lancasales.com
-  - image: /images/uploads/titan11.jpg
-    source_link: https://www.lancasales.com
-  - image: /images/uploads/wingman.jpg
-    source_link: https://www.lancasales.com
-  - source_link: https://www.lancasales.com
-    image: /images/uploads/bowlandbasket.jpg
